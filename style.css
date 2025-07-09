@@ -1,0 +1,103 @@
+/* Reset and Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #111;
+  color: white;
+}
+
+/* Header */
+header {
+  background-color: #222;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  vertical-align: middle;
+  margin-bottom: 10px;
+}
+
+h1 img {
+  display: block;
+  margin: 0 auto 10px;
+  height: 150px;
+}
+
+/* Navigation */
+nav a {
+  color: #ddd;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+  background-image: url('https://images.unsplash.com/photo-1598970434795-0c54fe7c0642');
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.hero h2 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.hero button {
+  padding: 10px 20px;
+  font-size: 1em;
+  background-color: #ff4747;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.hero button:hover {
+  background-color: #e63e3e;
+  cursor: pointer;
+}
+
+/* About Section */
+.about {
+  padding: 40px 20px;
+  background-color: #1a1a1a;
+}
+
+.about h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-size: 1em;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #222;
+  color: #aaa;
+}
